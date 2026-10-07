@@ -30,3 +30,7 @@ web-ext.config.ts
 *.sln
 *.sw?
 .trae
+
+# Track only the reviewed Windows share extension build.
+!integrations/windows-resume-kit/pagent/dist/
+!integrations/windows-resume-kit/pagent/dist/**

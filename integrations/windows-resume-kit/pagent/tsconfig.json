@@ -1,0 +1,22 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "jsx": "react-jsx",
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    ".wxt/**/*",
+    "src/**/*",
+    "tests/**/*",
+    "vitest.config.ts",
+    "playwright.config.ts",
+    "wxt.config.ts",
+    "mcp/**/*.ts"
+  ],
+  "exclude": ["tests/web-playground"]
+}

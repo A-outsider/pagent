@@ -1,0 +1,4 @@
+# Keep tracked text identical after Windows checkout; preserve binary detection.
+* text=auto eol=lf
+# Bundled strings contain intentional whitespace; keep build bytes unchanged.
+pagent/dist/** -whitespace linguist-generated=true

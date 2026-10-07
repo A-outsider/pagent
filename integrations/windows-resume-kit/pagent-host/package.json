@@ -1,0 +1,12 @@
+{
+  "name": "pagent-local-host",
+  "version": "0.1.0-windows-share",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": { "start": "node index.mjs --http-only --port 17344 --strict-port" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "zod": "4.4.3"
+  }
+}

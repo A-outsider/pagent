@@ -1,0 +1,9 @@
+# Local personal data and generated installation settings
+resume-mcp/data/
+codex-mcp.fragment.toml
+node_modules/
+**/node_modules/
+*.log
+.env
+.env.*
+.DS_Store

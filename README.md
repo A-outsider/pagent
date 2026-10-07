@@ -2,6 +2,17 @@
 
 页面内浏览器 Agent。它以 Shadow DOM 悬浮面板的形式生活在当前网页中，使用 LangChain.js 调用你本地配置的模型，并对页面执行观测、点击、输入、滚动、导航、截图和可选的 CDP 高级操作。
 
+## Windows 简历填写与 BOSS 投递
+
+本分支在 [`integrations/windows-resume-kit`](integrations/windows-resume-kit/START-HERE.md) 提供 Codex 直接调用的网申填写与 BOSS 收藏岗位投递能力，包含两个 Skill、预构建 Chrome 扩展、MCP 服务及 Windows 安装脚本。
+
+```powershell
+git clone --branch codex/windows-resume-share --single-branch https://github.com/still-soda/pagent.git C:\Tools\pagent-resume
+cd C:\Tools\pagent-resume\integrations\windows-resume-kit
+```
+
+按该目录的 [INSTALL.md](integrations/windows-resume-kit/INSTALL.md) 安装，并导入使用者自己的简历和账号。先只读预检，再授权单岗试投；Windows 真机端到端流程仍需验收。完整源码与预构建产物均在该目录，安装无需构建根项目。
+
 ## 技术栈
 
 - Chromium Manifest V3 + [WXT](https://wxt.dev/)

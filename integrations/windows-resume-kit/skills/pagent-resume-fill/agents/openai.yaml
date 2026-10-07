@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pagent 网申填写"
+  short_description: "直接操控 Pagent MCP，完整填写网申并核对所有经历与附件"
+  default_prompt: "使用 $pagent-resume-fill 完整填写当前网申页面，未知留空，完成后检查一遍。"

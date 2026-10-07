@@ -1,0 +1,49 @@
+<svg viewBox="0 0 56 56" width="56" height="56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pagent Bot">
+  <defs>
+    <clipPath id="pagent-bot-clip">
+      <circle cx="28" cy="28" r="28" />
+    </clipPath>
+    <linearGradient id="pagent-bot-base" x1="18%" y1="8%" x2="82%" y2="92%">
+      <stop offset="0%" stop-color="oklch(0.56 0.22 268)" />
+      <stop offset="100%" stop-color="oklch(0.47 0.2 252)" />
+    </linearGradient>
+    <radialGradient id="pagent-bot-cyan" cx="24%" cy="18%" r="34%">
+      <stop offset="0%" stop-color="oklch(0.82 0.13 222 / 0.95)" />
+      <stop offset="100%" stop-color="oklch(0.82 0.13 222 / 0)" />
+    </radialGradient>
+    <radialGradient id="pagent-bot-magenta" cx="82%" cy="86%" r="48%">
+      <stop offset="0%" stop-color="oklch(0.64 0.22 305 / 0.82)" />
+      <stop offset="100%" stop-color="oklch(0.64 0.22 305 / 0)" />
+    </radialGradient>
+    <radialGradient id="pagent-bot-gloss-rad" cx="30%" cy="18%" r="34%">
+      <stop offset="0%" stop-color="oklch(1 0 0 / 0.22)" />
+      <stop offset="100%" stop-color="oklch(1 0 0 / 0)" />
+    </radialGradient>
+    <linearGradient id="pagent-bot-gloss-lin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="oklch(1 0 0 / 0.06)" />
+      <stop offset="52%" stop-color="oklch(1 0 0 / 0)" />
+    </linearGradient>
+    <linearGradient id="pagent-bot-bottom-shadow" x1="0%" y1="100%" x2="0%" y2="55%">
+      <stop offset="0%" stop-color="oklch(0.25 0.12 270 / 0.24)" />
+      <stop offset="100%" stop-color="oklch(0.25 0.12 270 / 0)" />
+    </linearGradient>
+    <filter id="pagent-bot-eye-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="oklch(0.19 0.08 270)" flood-opacity="0.38" />
+    </filter>
+  </defs>
+  <g data-part="face" clip-path="url(#pagent-bot-clip)">
+    <circle cx="28" cy="28" r="28" fill="url(#pagent-bot-base)" />
+    <circle cx="28" cy="28" r="28" fill="url(#pagent-bot-cyan)" />
+    <circle cx="28" cy="28" r="28" fill="url(#pagent-bot-magenta)" />
+    <circle cx="28" cy="28" r="28" fill="url(#pagent-bot-gloss-rad)" />
+    <circle cx="28" cy="28" r="28" fill="url(#pagent-bot-gloss-lin)" />
+    <circle cx="28" cy="28" r="28" fill="url(#pagent-bot-bottom-shadow)" />
+    <circle cx="28" cy="28" r="27.5" fill="none" stroke="oklch(1 0 0 / 0.2)" stroke-width="1" />
+  </g>
+  <g data-part="eyes-container" filter="url(#pagent-bot-eye-shadow)">
+    <g data-part="eyes-orbit">
+      <rect data-part="eye-left" x="18" y="19.5" width="6" height="17" rx="3" fill="oklch(0.985 0.006 250)" />
+      <rect data-part="eye-right" x="32" y="19.5" width="6" height="17" rx="3" fill="oklch(0.985 0.006 250)" />
+    </g>
+  </g>
+</svg>
