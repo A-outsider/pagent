@@ -3,7 +3,7 @@
 将分享分支克隆到准备长期保留的 NTFS 本地目录，再进入本目录。使用你自己的 Chrome、招聘网站账号和简历。目录不要放进公共共享、OneDrive 或其他自动同步的位置。
 
 ```powershell
-git clone --branch codex/windows-resume-share --single-branch https://github.com/still-soda/pagent.git C:\Tools\pagent-resume
+git clone --branch codex/windows-resume-share --single-branch https://github.com/A-outsider/pagent.git C:\Tools\pagent-resume
 cd C:\Tools\pagent-resume\integrations\windows-resume-kit
 ```
 

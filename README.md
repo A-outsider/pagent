@@ -7,7 +7,7 @@
 本分支在 [`integrations/windows-resume-kit`](integrations/windows-resume-kit/START-HERE.md) 提供 Codex 直接调用的网申填写与 BOSS 收藏岗位投递能力，包含两个 Skill、预构建 Chrome 扩展、MCP 服务及 Windows 安装脚本。
 
 ```powershell
-git clone --branch codex/windows-resume-share --single-branch https://github.com/still-soda/pagent.git C:\Tools\pagent-resume
+git clone --branch codex/windows-resume-share --single-branch https://github.com/A-outsider/pagent.git C:\Tools\pagent-resume
 cd C:\Tools\pagent-resume\integrations\windows-resume-kit
 ```
 

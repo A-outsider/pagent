@@ -7,7 +7,7 @@
 1. 安装 Git，将分享分支克隆到永久 NTFS 本地目录（避开 OneDrive 和共享目录），随后进入 `integrations/windows-resume-kit`。不要把后续生成的个人数据提交 Git 或转发给别人。
 
    ```powershell
-   git clone --branch codex/windows-resume-share --single-branch https://github.com/still-soda/pagent.git C:\Tools\pagent-resume
+   git clone --branch codex/windows-resume-share --single-branch https://github.com/A-outsider/pagent.git C:\Tools\pagent-resume
    cd C:\Tools\pagent-resume\integrations\windows-resume-kit
    ```
 2. 安装 [Node.js](https://nodejs.org/) 24 或更高版本（包含 npm），重新打开普通 PowerShell。无需管理员权限。

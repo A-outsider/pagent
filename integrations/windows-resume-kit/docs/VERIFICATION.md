@@ -28,3 +28,5 @@ Windows 不支持自动打开牛客工具栏面板；使用者可手动打开。
 ## Git 分支交付
 
 2026-10-07 将已验证快照放入 `integrations/windows-resume-kit`，保留源码、预构建扩展与 Host；仅调整获取/安装路径说明及 Git 分发规则。`data`、依赖目录和日志仍被忽略，`.gitattributes` 让 Windows 检出保留文本 LF。源码逻辑与 2026-10-06 的验证快照一致。
+
+分支托管于有写入权限的现有 fork `A-outsider/pagent`；上游 `still-soda/pagent` 保持为 origin，未向上游创建 PR。安装说明中的 clone 地址指向实际分享分支。
